@@ -1,0 +1,73 @@
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   /* background: linear-gradient(rgb(47,150,163),rgb(48,62,143)) ; */
+   background-image:url("https://1.bp.blogspot.com/-T85naTcMAYA/VzNJ12hg2iI/AAAAAAAAAIk/Q9r0MLjbqX4IUFb1gRAl8DyhkVM-VIT6gCLcB/s1600/1miEZBL.gif");
+   background-repeat: no-repeat;
+
+   background-size: cover;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+.location,.temperature{
+
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.temperature{
+    
+    flex-direction: row;
+}
+
+.degree-section{
+
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* we make it clickable*/
+
+}
+
+.degree-section span{
+
+    margin: 10px;
+    font-size: 30px;
+
+
+}
+
+.degree-section h2{
+    font-size: 40px;
+}
+.temperature-description{
+    
+   
+   
+}
+
+
+/*.container{
+    display: flex;
+    width: 750px;
+    height: 100vh;
+    background-image:url("https://img.freepik.com/free-photo/raining-evening-istanbul-maiden-s-tower-kiz-kulesi-night-time-istanbul-turkey_117930-409.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+
+}
+*/
